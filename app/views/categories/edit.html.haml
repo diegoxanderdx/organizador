@@ -1,7 +1,12 @@
-%h1 Editing category
 
-= render 'form'
 
-= link_to t('common.show'), @category
-\|
-= link_to t('common.back'), categories_path
+.category.edit-page
+  .card
+    .card-body
+      %h2 Editando categoría
+
+      = render 'form'
+
+      = link_to t('common.show'), @category, class: 'btn-interaction'
+      \|
+      = link_to t('common.back'), categories_path, class: 'btn-interaction'

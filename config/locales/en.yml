@@ -15,6 +15,7 @@ en:
       name: Name
     new_category: New Category
   common:
+    are_you_sure: Are you sure
     back: Back
     destroy: Delete
     edit: Edit

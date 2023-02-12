@@ -15,6 +15,7 @@ es:
       name: Nombre
     new_category: Nueva Categoria
   common:
+    are_you_sure: Estas seguro
     back: Regresar
     destroy: Eliminar
     edit: Editar
