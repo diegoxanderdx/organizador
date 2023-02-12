@@ -1,0 +1,32 @@
+---
+es:
+  activerecord:
+    models:
+      category:
+        one: Tarea
+        others: Tareas
+        task: Task
+      task:
+        one: Tarea
+        others: Tareas
+  categories:
+    form:
+      description: Descripcion
+      name: Nombre
+    new_category: Nueva Categoria
+  common:
+    back: Regresar
+    destroy: Eliminar
+    edit: Editar
+    show: Mostrar
+  hello: Hello world
+  task:
+    errors:
+      invalid_due_date: Fecha de vencimiento invalida
+  tasks:
+    form:
+      category: Categoria
+      description: Descripcion
+      due_date: Fecha de vencimiento
+      name: Nombre
+    new_task: Nueva Tarea
