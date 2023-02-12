@@ -17,7 +17,7 @@
         %td= task.name
         %td= task.description
         %td= task.due_date
-        %td= task.category
+        %td= task.category.name
         %td= link_to t('common.show'), task
         %td= link_to t('common.edit'), edit_task_path(task)
         %td= link_to t('common.destroy'), task, :method => :delete, :data => { :confirm => 'Are you sure?' }
