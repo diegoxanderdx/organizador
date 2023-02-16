@@ -6,7 +6,8 @@ ruby '2.7.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.0.6', '>= 6.0.6.1'
 # Use postgresql as the database for Active Record
-gem 'pg', '>= 0.18', '< 2.0'
+gem 'mongoid', github: 'mongodb/mongoid', branch: 'master'
+# gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 5.2.1'
 # Use SCSS for stylesheets
@@ -23,7 +24,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'hamlit'
 gem 'simple_form'
-gem 'annotate'
+# gem 'annotate'
 gem 'rails-i18n'
 gem 'devise'
 gem 'cocoon'
