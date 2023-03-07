@@ -4,12 +4,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.7.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
-gem 'rails', '~> 6.0.6', '>= 6.0.6.1'
+gem 'rails', '~> 6.0.3'
 # Use postgresql as the database for Active Record
 gem 'mongoid', github: 'mongodb/mongoid', branch: 'master'
 # gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-gem 'puma', '~> 5.2.1'
+gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
@@ -41,6 +41,8 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry'
   gem 'pry-doc'
+  gem 'factory_bot_rails'
+  gem 'rspec-rails'
 end
 
 group :development do
@@ -56,3 +58,16 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :test do
+  gem 'database_cleaner-mongoid'
+  gem 'faker'
+  gem 'capybara'
+  gem 'mongoid-rspec'
+  gem 'rails-controller-testing'
+  gem 'selenium-webdriver'
+end
+
+group :production do
+  gem 'rails_12factor'
+end
