@@ -10,9 +10,13 @@
     "@types/popper.js": "^1.11.0",
     "bootstrap": "^5.2.3",
     "cocoon": "github:nathanvda/cocoon#c24ba53",
+    "coffee-loader": "^1.0.0",
+    "coffeescript": "1.12.7",
     "jquery": "^3.6.3",
     "popper.js": "^1.16.1",
     "roboto-fontface": "^0.10.0",
+    "selectize": "^0.12.6",
+    "selectize-bootstrap4-theme": "^2.0.2",
     "turbolinks": "^5.2.0"
   },
   "version": "0.1.0",
